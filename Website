@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second Chance Cars</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e0f0e8;
+      color: #222;
+    }
+    header {
+      background-color: #4a6f5d;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #3b594a;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #a3c4b3;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      color: #4a6f5d;
+    }
+    .cars {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 1.5rem;
+    }
+    .car-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1rem;
+      width: 280px;
+    }
+    .car-card img {
+      width: 100%;
+      border-radius: 4px;
+    }
+    footer {
+      background-color: #4a6f5d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Second Chance Cars</h1>
+    <p>Your road to a fresh start starts here</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#inventory">Inventory</a>
+    <a href="#financing">Financing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero">
+    <h1>Reliable Cars. Flexible Financing. No Judgement.</h1>
+    <p>We help good people get back on the road with great vehicles and second chances.</p>
+  </section>
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Second Chance Cars, we specialize in helping people with all credit types get into dependable, affordable vehicles. Whether you're rebuilding credit or just looking for an honest dealership, we're here for you every step of the way.</p>
+  </section>
+  <section id="inventory" class="section">
+    <h2>Featured Inventory</h2>
+    <div class="cars">
+      <div class="car-card">
+        <img src="https://via.placeholder.com/280x180" alt="Car 1">
+        <h3>2017 Toyota Camry</h3>
+        <p>Low miles, clean title, financing available.</p>
+      </div>
+      <div class="car-card">
+        <img src="https://via.placeholder.com/280x180" alt="Car 2">
+        <h3>2018 Honda Civic</h3>
+        <p>Great on gas, fully inspected, ready to go.</p>
+      </div>
+      <div class="car-card">
+        <img src="https://via.placeholder.com/280x180" alt="Car 3">
+        <h3>2016 Ford Escape</h3>
+        <p>Roomy SUV, all-wheel drive, affordable terms.</p>
+      </div>
+    </div>
+  </section>
+  <section id="financing" class="section">
+    <h2>Financing Options</h2>
+    <p>We work with a network of lenders to offer flexible financing options tailored to your needs — whether you have excellent credit or are rebuilding. No credit? Bad credit? No problem.</p>
+  </section>
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Have questions or ready to schedule a test drive? Reach out today!</p>
+    <p>Email: contact@secondchancecars.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Address: 123 Fresh Start Blvd, Your City, ST 00000</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Second Chance Cars. All rights reserved.</p>
+  </footer>
+</body>
+</html>
